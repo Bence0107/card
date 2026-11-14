@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5433FF;
+    background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);
+    background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);
+}
+
+.card {
+    border: 2px solid black;
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.help-btn {
+    position: fixed;
+    border: 5px solid orange;
+    background-color: orange;
+    color: white;
+    bottom: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    color: black;
+}
+
+button {
+    position: absolute;
+    bottom: 3px;
+    background-color: lightblue;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
